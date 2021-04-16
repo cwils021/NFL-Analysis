@@ -11,7 +11,8 @@ stadium_data = pd.read_csv("https://raw.githubusercontent.com/cwils021/NFL-Analy
 game_data = pd.read_csv('https://raw.githubusercontent.com/cwils021/NFL-Analysis/main/Datasets/KaggleData/spreadspoke_scores.csv')
 teams = pd.read_csv('https://raw.githubusercontent.com/cwils021/NFL-Analysis/main/Datasets/KaggleData/nfl_teams.csv')
 elo = pd.read_csv("https://projects.fivethirtyeight.com/nfl-api/nfl_elo.csv")
-nfl_scores_and_predictors = pd.read_excel("NFL_final_dataset.xlsx")
+nfl_scores_and_predictors = pd.read_excel("https://github.com/cwils021/NFL-Analysis/blob/main/NFL_final_dataset.xlsx?raw=true")
+
 
 # stadium_profile = ProfileReport(stadium_data, title="Pandas Profiling Report for Stadium Data")
 # stadium_profile.to_file("stadium_data.html")
@@ -25,5 +26,5 @@ nfl_scores_and_predictors = pd.read_excel("NFL_final_dataset.xlsx")
 # elo_profile = ProfileReport(elo, title="Pandas Profiling Report for ELO Data")
 # elo_profile.to_file("elo_data.html")
 
-nfl_scores_and_predictors_profile = ProfileReport(nfl_scores_and_predictors, title="Pandas Profiling Report for Final Dataset")
-nfl_scores_and_predictors_profile.to_file("final_ds_data.html")
+# nfl_scores_and_predictors_profile = ProfileReport(nfl_scores_and_predictors, title="Pandas Profiling Report for Final Dataset")
+# nfl_scores_and_predictors_profile.to_file("final_ds_data.html")
