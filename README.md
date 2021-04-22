@@ -13,4 +13,4 @@ Script to process data for modeling NFL game data for predicting outcome - made 
 1. download ipynb file
 2. Go to [Google Colab](https://colab.research.google.com)
 3. upload downloaded file
-4. follow instructions on how to run notebook
+4. follow instructions on how to run inside notebook
